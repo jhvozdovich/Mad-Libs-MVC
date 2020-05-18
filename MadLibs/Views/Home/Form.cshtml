@@ -5,15 +5,21 @@
     <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
   </head>
   <body>
-    <h1>Madlib Form</h1>
-    <form action="/madlibs" method="post">
-      <label for="noun">Enter a noun:</label>
-      <input id="noun" name="noun" type="text">
-      <label for="adjective">Enter an adjective:</label>
-      <input id="adjective" name="adjective" type="text">
-      <label for="adverb">Enter an adverb:</label>
-      <input id="adverb" name="adverb" type="text">
-      <button type="submit">Submit</button>
-    </form>
+    <div class="container">
+      <h1 class="jumbotron">Madlib Form</h1>
+      <form action="/madlibs" method="post" class="form-group">
+        <label for="noun">Enter a noun:</label>
+        <input id="noun" name="noun" type="text" required>
+        <br>
+        <label for="adjective">Enter an adjective:</label>
+        
+        <input id="adjective" name="adjective" type="text" required>
+        <br>
+        <label for="adverb">Enter an adverb:</label>
+        <input id="adverb" name="adverb" type="text" required>
+        <br>
+        <button type="submit" class="btn btn-info">Submit</button>
+      </form>
+    </div>
   </body>
 </html>
