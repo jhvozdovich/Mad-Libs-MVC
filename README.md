@@ -39,6 +39,7 @@ _Have a bug or an issue with this application? [Open a new issue](https://github
 | **Form allows user to input a noun** | User Input:”Noun: puppy” | Output: "It was a ____ day and you saw a puppy walking ___ around the street! Wow!" |
 | **Form allows user to input an adjective** | User Input:”Noun: beautiful” | Output: "It was a beautiful day and you saw a ____ walking ___ around the street! Wow!" |
 | **Form allows user to input an adverb** | User Input:”Adverb: happily” | Output: "It was a _____ day and you saw a _____ walking happily around the street! Wow!" |
+| **Allow user to select different type of Form for different MadLibs**| Input:Select Halloween Form | Output: "Halloween is the best time to ___." |
 
 
 
